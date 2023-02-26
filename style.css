@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+}
+
+header {
+    height: 40px;
+    width: 100%;
+    background-color: gray;
+    padding: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+    margin-top: 5px;
+}
+
+a {
+    padding: 10px 20px;
+    color: white;
+    border: 1px solid gray;
+    border-radius: 6px;
+    background-color: black;
+}
+
+a:hover {
+    border: 1px solid black;
+    background-color: gray;
+
+}
+
+select {
+    padding: 15px 20px;
+    margin: 20px;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+
+option {
+    padding: 15px 20px;
+    margin: 20px;
+    display: flex;
+    position: relative;
+}
+
+p {
+    margin: 20px;
+    text-align: justify;
+}
+
+button {
+    background-color: rgb(46, 37, 149);
+    color: white;
+    padding: 10px 20px;
+    margin: 20px;
+    font-size: 14px;
+    border-radius: 5px;
+}
