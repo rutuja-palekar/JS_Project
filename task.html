@@ -27,6 +27,33 @@
     </header>
 
     <main>
+        <div>
+            <table id="taskDataTable">
+
+            </table>
+        </div>
+        <div id="myModal" class="modal">
+
+            <!-- Modal content -->
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <div>
+                    <label for="title">Title: </label>
+                    <input type="text" id="task_title" placeholder="Enter Title">
+                </div>
+
+                <div>
+                    <label for="status">Status</label>
+                    <input type="radio" name="task_status" value="completed"><span>Completed</span>
+                    <input type="radio" name="task_status" value="not completed"><span>Not Completed</span>
+                </div>
+
+                <div>
+                    <button id="save_task">Save</button>
+                </div>
+            </div>
+
+        </div>
         <button id="addTask">Add Task</button>
     </main>
 
